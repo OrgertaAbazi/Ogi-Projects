@@ -1,3 +1,9 @@
+import sqlite3
+import hashlib
+import xml.etree.ElementTree as ET
+import pickle
+import jwt
+import urllib3
 from flask import Flask, request
 # Flask application
 app = Flask(__name__)
